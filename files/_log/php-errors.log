@@ -1,0 +1,398 @@
+[2023-12-24 22:54:10] glpiphplog.WARNING: Test logger  
+[2023-12-24 23:21:53] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): Error while reading greeting packet. PID=9756 in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\dashboard.php:36                              include()
+  
+[2023-12-24 23:21:53] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2006): MySQL server has gone away in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\dashboard.php:36                              include()
+  
+[2023-12-24 23:21:59] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\dashboard.php:36                              include()
+  
+[2023-12-24 23:22:03] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\dashboard.php:36                              include()
+  
+[2023-12-24 23:22:07] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\dashboard.php:36                              include()
+  
+[2023-12-24 23:22:11] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\dashboard.php:36                              include()
+  
+[2023-12-24 23:22:16] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\dashboard.php:36                              include()
+  
+[2023-12-24 23:22:20] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\dashboard.php:36                              include()
+  
+[2023-12-24 23:22:24] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\dashboard.php:36                              include()
+  
+[2023-12-24 23:22:29] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\dashboard.php:36                              include()
+  
+[2023-12-24 23:22:33] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\dashboard.php:36                              include()
+  
+[2023-12-24 23:22:37] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\dashboard.php:36                              include()
+  
+[2023-12-24 23:22:41] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\dashboard.php:36                              include()
+  
+[2023-12-24 23:22:46] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\dashboard.php:36                              include()
+  
+[2023-12-24 23:22:50] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\dashboard.php:36                              include()
+  
+[2023-12-24 23:22:54] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\dashboard.php:36                              include()
+  
+[2023-12-24 23:22:59] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\dashboard.php:36                              include()
+  
+[2023-12-24 23:23:03] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\dashboard.php:36                              include()
+  
+[2023-12-24 23:23:07] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\dashboard.php:36                              include()
+  
+[2023-12-24 23:23:12] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\dashboard.php:36                              include()
+  
+[2023-12-24 23:23:16] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\dashboard.php:36                              include()
+  
+[2023-12-24 23:23:20] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:87                                       include()
+  
+[2023-12-24 23:23:20] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "glpilanguage" in C:\xampp\htdocs\glpi\src\Html.php at line 1172
+  Backtrace :
+  src\Html.php:2092                                  Html::includeHeader()
+  src\DBConnection.php:600                           Html::nullHeader()
+  src\DBConnection.php:536                           DBConnection::displayMySQLError()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:87                                       include()
+  
+[2023-12-24 23:23:20] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "" in C:\xampp\htdocs\glpi\src\Html.php at line 1172
+  Backtrace :
+  src\Html.php:2092                                  Html::includeHeader()
+  src\DBConnection.php:600                           Html::nullHeader()
+  src\DBConnection.php:536                           DBConnection::displayMySQLError()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:87                                       include()
+  
+[2023-12-24 23:23:20] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\xampp\htdocs\glpi\src\Html.php at line 1172
+  Backtrace :
+  src\Html.php:2092                                  Html::includeHeader()
+  src\DBConnection.php:600                           Html::nullHeader()
+  src\DBConnection.php:536                           DBConnection::displayMySQLError()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:87                                       include()
+  
+[2023-12-24 23:23:24] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:87                                       include()
+  
+[2023-12-24 23:23:24] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "glpilanguage" in C:\xampp\htdocs\glpi\src\Html.php at line 1172
+  Backtrace :
+  src\Html.php:2092                                  Html::includeHeader()
+  src\DBConnection.php:600                           Html::nullHeader()
+  src\DBConnection.php:536                           DBConnection::displayMySQLError()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:87                                       include()
+  
+[2023-12-24 23:23:24] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "" in C:\xampp\htdocs\glpi\src\Html.php at line 1172
+  Backtrace :
+  src\Html.php:2092                                  Html::includeHeader()
+  src\DBConnection.php:600                           Html::nullHeader()
+  src\DBConnection.php:536                           DBConnection::displayMySQLError()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:87                                       include()
+  
+[2023-12-24 23:23:24] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\xampp\htdocs\glpi\src\Html.php at line 1172
+  Backtrace :
+  src\Html.php:2092                                  Html::includeHeader()
+  src\DBConnection.php:600                           Html::nullHeader()
+  src\DBConnection.php:536                           DBConnection::displayMySQLError()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:87                                       include()
+  
+[2023-12-24 23:23:29] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\dashboard.php:36                              include()
+  
+[2023-12-24 23:23:33] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\dashboard.php:36                              include()
+  
+[2023-12-24 23:23:37] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\dashboard.php:36                              include()
+  
+[2023-12-24 23:23:42] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\dashboard.php:36                              include()
+  
+[2023-12-24 23:23:46] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:87                                       include()
+  
+[2023-12-24 23:23:46] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "glpilanguage" in C:\xampp\htdocs\glpi\src\Html.php at line 1172
+  Backtrace :
+  src\Html.php:2092                                  Html::includeHeader()
+  src\DBConnection.php:600                           Html::nullHeader()
+  src\DBConnection.php:536                           DBConnection::displayMySQLError()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:87                                       include()
+  
+[2023-12-24 23:23:46] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "" in C:\xampp\htdocs\glpi\src\Html.php at line 1172
+  Backtrace :
+  src\Html.php:2092                                  Html::includeHeader()
+  src\DBConnection.php:600                           Html::nullHeader()
+  src\DBConnection.php:536                           DBConnection::displayMySQLError()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:87                                       include()
+  
+[2023-12-24 23:23:46] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\xampp\htdocs\glpi\src\Html.php at line 1172
+  Backtrace :
+  src\Html.php:2092                                  Html::includeHeader()
+  src\DBConnection.php:600                           Html::nullHeader()
+  src\DBConnection.php:536                           DBConnection::displayMySQLError()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:87                                       include()
+  
+[2023-12-24 23:28:12] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:87                                       include()
+  
+[2023-12-25 13:04:16] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:90                                       include()
+  
+[2023-12-25 13:04:21] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  front\locale.php:41                                include()
+  
+[2023-12-25 13:06:15] glpiphplog.WARNING:   *** PHP Warning (2): Undefined variable $gClient in C:\xampp\htdocs\glpi\index.php at line 186  
+[2023-12-25 13:06:15] glpiphplog.CRITICAL:   *** Uncaught Exception Error: Call to a member function getAccessToken() on null in C:\xampp\htdocs\glpi\index.php at line 186  
+[2023-12-25 13:08:02] glpiphplog.WARNING:   *** PHP Warning (2): Undefined variable $gClient in C:\xampp\htdocs\glpi\index.php at line 186  
+[2023-12-25 13:08:02] glpiphplog.CRITICAL:   *** Uncaught Exception Error: Call to a member function getAccessToken() on null in C:\xampp\htdocs\glpi\index.php at line 186  
+[2023-12-25 13:08:26] glpiphplog.WARNING:   *** PHP Warning (2): Undefined variable $gClient in C:\xampp\htdocs\glpi\index.php at line 186  
+[2023-12-25 13:08:26] glpiphplog.CRITICAL:   *** Uncaught Exception Error: Call to a member function getAccessToken() on null in C:\xampp\htdocs\glpi\index.php at line 186  
